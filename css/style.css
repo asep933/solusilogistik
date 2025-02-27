@@ -6,6 +6,42 @@
   --dark: #060315;
 }
 
+/* Warna Selection */
+::selection {
+  background-color: #00adb5; /* Warna latar belakang saat teks dipilih */
+  color: #060315; /* Warna teks saat dipilih */
+}
+
+/* Untuk browser berbasis WebKit (Chrome, Safari, dll.) */
+::-moz-selection {
+  background-color: #00adb5; /* Warna latar belakang saat teks dipilih */
+  color: #060315; /* Warna teks saat dipilih */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Lebar scrollbar */
+  height: 8px; /* Tinggi scrollbar (untuk scrollbar horizontal) */
+}
+
+/* Track (latar belakang scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Warna latar belakang scrollbar */
+  border-radius: 10px; /* Sudut rounded */
+}
+
+/* Handle (bagian yang bisa digerakkan) */
+::-webkit-scrollbar-thumb {
+  background: #3f72af; /* Warna scrollbar */
+  border-radius: 10px; /* Sudut rounded */
+  border: 2px solid #f1f1f1; /* Border untuk efek rapih */
+}
+
+/* Handle saat dihover */
+::-webkit-scrollbar-thumb:hover {
+  background: #003366; /* Warna scrollbar saat dihover */
+}
+
 .fw-medium {
   font-weight: 600 !important;
 }
