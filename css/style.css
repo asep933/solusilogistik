@@ -4,42 +4,56 @@
   --secondary: #00adb5;
   --light: #f8f2f0;
   --dark: #060315;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  border-radius: 15%;
+  margin-right: 8px;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /* Warna Selection */
 ::selection {
-  background-color: #00adb5; /* Warna latar belakang saat teks dipilih */
-  color: #060315; /* Warna teks saat dipilih */
+  background-color: #00adb5;
+  color: #060315;
 }
 
 /* Untuk browser berbasis WebKit (Chrome, Safari, dll.) */
 ::-moz-selection {
-  background-color: #00adb5; /* Warna latar belakang saat teks dipilih */
-  color: #060315; /* Warna teks saat dipilih */
+  background-color: #00adb5;
+  color: #060315;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 12px; /* Lebar scrollbar */
-  height: 8px; /* Tinggi scrollbar (untuk scrollbar horizontal) */
+  width: 12px;
+  height: 8px;
 }
 
 /* Track (latar belakang scrollbar) */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Warna latar belakang scrollbar */
-  border-radius: 10px; /* Sudut rounded */
+  background: #f1f1f1;
+  border-radius: 10px;
 }
 
 /* Handle (bagian yang bisa digerakkan) */
 ::-webkit-scrollbar-thumb {
-  background: #3f72af; /* Warna scrollbar */
-  border-radius: 10px; /* Sudut rounded */
-  border: 2px solid #f1f1f1; /* Border untuk efek rapih */
+  background: #3f72af;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
 }
 
 /* Handle saat dihover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #003366; /* Warna scrollbar saat dihover */
+  background: #003366;
 }
 
 .fw-medium {
@@ -197,6 +211,10 @@
 
 /*** Header ***/
 @media (max-width: 768px) {
+  .navbar-brand h2 {
+    font-size: large;
+  }
+
   .header-carousel .owl-carousel-item {
     position: relative;
     min-height: 500px;
