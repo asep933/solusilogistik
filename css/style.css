@@ -10,7 +10,6 @@
 }
 
 .logo {
-  border-radius: 15%;
   margin-right: 8px;
 }
 
@@ -61,6 +60,14 @@
 }
 
 .back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+
+.btn-wa {
   position: fixed;
   display: none;
   right: 45px;
