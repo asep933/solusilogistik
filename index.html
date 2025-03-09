@@ -43,7 +43,7 @@
     <meta name="twitter:image" content="img/twitter-image.jpg" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/favicon/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -296,8 +296,9 @@
               barang. Barang kami antar sampai di depan pintu rumah/kantor Anda.
             </p>
             <div class="d-flex align-items-center">
+              <!-- Mengganti ikon sesuai dengan kontak -->
               <i
-                class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"
+                class="fa fa-phone fa-2x flex-shrink-0 bg-primary p-3 text-white"
               ></i>
               <div class="ps-4">
                 <h6>Hubungi kami untuk pertanyaan!</h6>
@@ -312,14 +313,26 @@
                   class="bg-primary p-4 mb-4 wow fadeIn"
                   data-wow-delay="0.3s"
                 >
-                  <i class="fa fa-home fa-2x text-white mb-3"></i>
-                  <h2 class="text-white mb-2" data-toggle="counter-up">5000</h2>
-                  <p class="text-white mb-0">Door-to-Door Service</p>
+                  <!-- Mengganti ikon untuk menyesuaikan dengan informasi tarif dan pengiriman -->
+                  <i class="fa fa-truck fa-2x text-white mb-3"></i>
+                  <p class="text-white mb-2">
+                    Tarif Terbaik, Jangkauan Luas Dari dan Ke Seluruh Indonesia.
+                    Free Pickup di Lokasi tanpa minimal order.
+                  </p>
+                  <p class="text-white mb-0 fw-bold">
+                    Harga Terjangkau & Negosiasi
+                  </p>
                 </div>
                 <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
-                  <i class="fa fa-dollar-sign fa-2x text-white mb-3"></i>
-                  <h2 class="text-white mb-2" data-toggle="counter-up">2500</h2>
-                  <p class="text-white mb-0">Harga Terjangkau & Negosiasi</p>
+                  <!-- Mengganti ikon agar lebih menggambarkan Control Tower / PIC -->
+                  <i class="fa fa-user-tie fa-2x text-white mb-3"></i>
+                  <p class="text-white mb-2">
+                    Control Tower / PIC khusus yang akan berkomunikasi langsung
+                    dengan perusahaan Bapak dan Ibu dalam memantau pengiriman.
+                  </p>
+                  <p class="text-white mb-0 fw-bold">
+                    Control Tower / PIC khusus
+                  </p>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -327,14 +340,15 @@
                   class="bg-success p-4 mb-4 wow fadeIn"
                   data-wow-delay="0.7s"
                 >
+                  <!-- Ikon ini sudah tepat untuk menggambarkan sistem monitoring -->
                   <i class="fa fa-chart-line fa-2x text-white mb-3"></i>
-                  <h2 class="text-white mb-2" data-toggle="counter-up">1800</h2>
-                  <p class="text-white mb-0">Sistem Monitoring Transparan</p>
-                </div>
-                <div class="bg-primary p-4 wow fadeIn" data-wow-delay="0.9s">
-                  <i class="fa fa-comments fa-2x text-white mb-3"></i>
-                  <h2 class="text-white mb-2" data-toggle="counter-up">3200</h2>
-                  <p class="text-white mb-0">Komunikasi Profesional</p>
+                  <p class="text-white mb-2">
+                    Resi kembali beserta surat jalan/dokumen dengan data lengkap
+                    penerima. Dashboard report pengiriman.
+                  </p>
+                  <p class="text-white mb-0 fw-bold">
+                    Sistem Monitoring Transparan
+                  </p>
                 </div>
               </div>
             </div>
@@ -479,7 +493,7 @@
           let body = `Nama: ${name}%0AEmail: ${email}%0ANomor Telepon: ${phone}%0ALayanan: ${service}%0APesan: ${message}`;
 
           // Kirim via mailto
-          window.location.href = `mailto:info@solusilogistik.com?subject=${subject}&body=${body}`;
+          window.location.href = `mailto:info@satusolusitepat.com?subject=${subject}&body=${body}`;
         });
     </script>
 
@@ -592,11 +606,13 @@
               Indah 1, Jl Cempaka 3 No. 61, Jatikramat, Jatiasih, Kota Bekasi
               17421
             </p>
+            <div class="mb-2 d-flex flex-column">
+              <div><i class="fa fa-phone-alt me-3"></i>+6281294350568</div>
+
+              <div><i class="fa fa-phone-alt me-3"></i>+6281299599682</div>
+            </div>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+6281294350568
-            </p>
-            <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@solusilogistik.com
+              <i class="fa fa-envelope me-3"></i>info@satusolusitepat.com
             </p>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -621,7 +637,7 @@
               kami.
             </p>
             <form
-              action="mailto:info@solusilogistik.com"
+              action="mailto:info@satusolusitepat.com"
               method="post"
               enctype="text/plain"
             >
